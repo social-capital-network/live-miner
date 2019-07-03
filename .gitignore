@@ -1,2 +1,4 @@
 blockchain-*.*
 wallet-*.*
+
+/__pycache__
