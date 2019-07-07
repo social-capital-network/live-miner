@@ -60,7 +60,7 @@ def load_work():
             blockchain_header = file_content[0]
             transaction_header = file_content[2]
 
-    except IOError:
+    except (IOError, IndexError):
         innovation_chain = [genesis_innovation]
         open_transactions = []
     finally:
@@ -78,7 +78,7 @@ def save_work():
             f.write('\n')
             f.write(TX_COMMIT_LINE)
     except IOError:
-        print('saving failed')
+        print('Saving failed!')
 
 
 save_work()
