@@ -37,7 +37,7 @@ genesis_innovation = {
     'investment': 5,  # the famous 5cents for expressing the problem/project
     'timeframe': '',
     'branches': [],
-    'context': {},
+    'contexts': {},
     'tests': {},
     'test_proof': {},
     'license': 'MIT'
@@ -47,26 +47,38 @@ genesis_innovation = {
     'index': 0,
 }
 
+# Initializing the innovation chain
+innovation_chain = []
+
 
 def load_work():
-    with open('master-blockchain.md', mode='r') as f:
-        file_content = f.readlines()
-        # [:-1] - reading all string except the last character
-        # blockchain = json.loads(file_content[0][:-1])
-        blockchain_header = file_content[0]
-        transaction_header = file_content[2]
+    try:
+        with open('master-blockchain.md', mode='r') as f:
+            file_content = f.readlines()
+            # [:-1] - reading all string except the last character
+            # blockchain = json.loads(file_content[0][:-1])
+            blockchain_header = file_content[0]
+            transaction_header = file_content[2]
 
+    except IOError:
+        innovation_chain = [genesis_innovation]
+        open_transactions = []
+    finally:
+        print('Cleanup!')
 
 # load_work()
 
 
 def save_work():
-    with open('master-blockchain.md', mode='w') as f:
-        # Write Header(s)
-        # or f.write(json.dumps(blockchain))
-        f.write(BLOCKCHAIN_HEADER)
-        f.write('\n')
-        f.write(TX_COMMIT_LINE)
+    try:
+        with open('master-blockchain.md', mode='w') as f:
+            # Write Header(s)
+            # or f.write(json.dumps(blockchain))
+            f.write(BLOCKCHAIN_HEADER)
+            f.write('\n')
+            f.write(TX_COMMIT_LINE)
+    except IOError:
+        print('saving failed')
 
 
 save_work()
