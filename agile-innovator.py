@@ -1,5 +1,7 @@
 import json
 
+from project import Project, Sprint
+
 # The Project/Branch/Blockchain Header in markdown .md format
 BLOCKCHAIN_HEADER = '# Project/Branch/Blockchain\n'
 
@@ -48,7 +50,22 @@ genesis_innovation = {
 }
 
 # Initializing the innovation chain
-innovation_chain = []
+innovationchain = []
+
+# ProjectChain is equivalent to a Branch in a Git Repo
+# A ProjectChain / Branch is a chain of Agile Sprint/Blocks
+updated_projectchain = []
+for sprint in projectchain:
+    converted_tx = [OrderedDict(
+        [('sender', tx['sender']), ('recipient',
+                                    tx['recipient']), ('amount', tx['amount'])]
+    ) for tx in block['transactions']]
+    updated_sprint = Sprint(
+        sprint['index'], sprint['previous_hash'], converted_tx, sprint['proof'], sprint['timestamp'])
+    updated_projectchain.append(updated_sprint)
+innovationchain = updated_projectchain
+open_transactions = json.loads(file_content[1])
+# above line is equivalent line 43 in Max' blockchain.py / Module 146 - Adding a "Block" Class to the Blockchain
 
 
 def load_work():
