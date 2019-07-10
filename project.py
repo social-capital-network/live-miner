@@ -15,10 +15,17 @@ class Project(Block):
     branches = 1        # git branches
     contexts = 1        # at least 1
     solutions = 0
+    implementations = 0
     creators = 1
     contributors = 1
-    owners = 1
     copies = 1
+    voters = 1
+    votes = 1
+    creators = 1
+    founders = 1
+    owners = 1
+    shareholders = 1
+    budget = 5
 
     def __init__(self, index, title, subtitle, tags, description):
         self.index = index
