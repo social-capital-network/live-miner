@@ -34,6 +34,9 @@ class Project(Block):
         self.tags = tags
         self.description = description
 
+    def describe(self):
+        print('{} \n {} \n{}'.format(self.title, self.subtitle, self.description))
+
 
 class Sprint(Block):
     def __init__(self, index, duration):
