@@ -1,8 +1,10 @@
 class Skill:
     top_speed = 100
     changes = []
-    projects = ['Visa']
+    used_at = ['Visa']
     warnings = []
+
+    def __init__():
 
     def run(self):
         print('I am operating not faster than {}'.format(self.top_speed))
@@ -12,15 +14,15 @@ skill1 = Skill()
 skill1.run()
 
 # Skill.top_speed = 200
-skill1.projects.append('Mary Via Programming')
+skill1.used_at.append('Marry Via Programming')
 
 skill2 = Skill()
 skill2.run()
-skill2.projects.append('World Elections 2020')
-print(skill2.projects)
+skill2.used_at.append('World Elections 2020')
+print(skill2.used_at)
 
 
 skill3 = Skill()
 skill3.run()
-skill3.projects.append('World Wide Web Skills Genom')
-print(skill3.projects)
+skill3.used_at.append('World Wide Skills Genom')
+print(skill3.used_at)
