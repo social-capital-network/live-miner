@@ -1,8 +1,8 @@
 from business_lead import BusinessLead
-# from project_lead import ProjectLead
+from project_lead import ProjectLead
 
 
-class Business(BusinessLead):
+class Business(BusinessLead, ProjectLead):
 
     def __init__(self, name):
         super().__init__(name)
@@ -20,6 +20,7 @@ class Business(BusinessLead):
         print('launch Business: {}'.format(self.name))
 
 
-with Business('Coin Biz Skills') as biz, BusinessLead(biz) as owner:
+with Business('Coin Biz Skills') as biz, BusinessLead(biz) as owner, ProjectLead(biz) as pm:
     biz.launch()
     owner.lead()
+    pm.lead()

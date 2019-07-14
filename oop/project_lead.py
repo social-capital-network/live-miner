@@ -1,18 +1,20 @@
 class ProjectLead():
+    role = 'Project'
+    ops = 'manage'
 
-    def __init__(self, project):
-        self.project = project
+    def __init__(self, name):
+        self.name = name
 
     def __enter__(self):
-        print('- starting - Project: {}'.format(self.project))
+        print('- start - {}: {}'.format(self.role, self.name))
         return self
 
     def __exit__(self, type, value, traceback):
-        print('- closing - Project: {}'.format(self.project))
+        print('- close - {}: {}'.format(self.role, self.name))
         return self
 
     def lead(self):
-        print('leading Project: {}'.format(self.project))
+        print('{} {}: {}'.format(self.ops, self.role, self.name))
 
 
 # with ProjectLead('Social Innovators Economy') as pl:
