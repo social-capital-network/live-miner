@@ -5,7 +5,8 @@ from project_lead import ProjectLead
 class Business(BusinessLead, ProjectLead):
 
     def __init__(self, name):
-        super().__init__(name)
+        BusinessLead.__init__(self, name)
+        ProjectLead.__init__(self, name)
         self.name = name
 
     def __enter__(self):
@@ -24,3 +25,7 @@ with Business('Coin Biz Skills') as biz, BusinessLead(biz) as owner, ProjectLead
     biz.launch()
     owner.lead()
     pm.lead()
+
+print(biz.__dict__)
+# print(owner)
+# print(pm)

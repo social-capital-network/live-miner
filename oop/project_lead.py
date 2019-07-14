@@ -1,21 +1,14 @@
-class ProjectLead():
-    role = 'Project'
-    ops = 'manage'
+from leader import Leader
+
+
+class ProjectLead(Leader):
 
     def __init__(self, name):
         self.name = name
-
-    def __enter__(self):
-        print('- start - {}: {}'.format(self.role, self.name))
-        return self
-
-    def __exit__(self, type, value, traceback):
-        print('- close - {}: {}'.format(self.role, self.name))
-        return self
-
-    def lead(self):
-        print('{} {}: {}'.format(self.ops, self.role, self.name))
-
+        self.level = 'Project'
+        self.role = 'manage'
+        self.state = 'result of <gs>'
+        self.schedule_url = 'Plan GSheet URL'
 
 # with ProjectLead('Social Innovators Economy') as pl:
 #     pl.lead()
