@@ -1,7 +1,6 @@
-class BusinessLead():
-    role = 'lead'
+class ProjectLead():
 
-    def __init__(self, project='Coin Your Skills'):
+    def __init__(self, project):
         self.project = project
 
     def __enter__(self):
@@ -13,8 +12,8 @@ class BusinessLead():
         return self
 
     def lead(self):
-        print('{}ing Project: {}'.format(self.role, self.project))
+        print('leading Project: {}'.format(self.project))
 
 
-with BusinessLead('Social Innovators Economy') as bl:
-    bl.lead()
+# with ProjectLead('Social Innovators Economy') as pl:
+#     pl.lead()

@@ -1,6 +1,11 @@
-class Business():
+from business_lead import BusinessLead
+# from project_lead import ProjectLead
 
-    def __init__(self, name='AI Economy'):
+
+class Business(BusinessLead):
+
+    def __init__(self, name):
+        super().__init__(name)
         self.name = name
 
     def __enter__(self):
@@ -15,5 +20,6 @@ class Business():
         print('launch Business: {}'.format(self.name))
 
 
-with Business('Coin Biz Skills') as biz:
+with Business('Coin Biz Skills') as biz, BusinessLead(biz) as owner:
     biz.launch()
+    owner.lead()
