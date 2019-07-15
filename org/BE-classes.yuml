@@ -1,0 +1,16 @@
+// {type:class}
+// {direction:topDown}
+// {generate:true}
+
+[note: Backend XSP Miner Classes{bg:cornsilk}]
+[User]<>1-projects 0..*>[Project]
+[User]<>1-services 0..*>[Service]
+[Project]++*-*>[Task]
+[Project]-1>[Social XP Delivery]
+[Project]*-*>[Product|UNSPSC_Code|price()|rc_price()]
+[Service]-1>[Task]
+[Service]*-*>[Product|UNSPSC_Code|price()|rc_price()]
+[Category Interest Tag]<->[Product]
+[Social XP Delivery]^[Internal]
+[Social XP Delivery]^[Public]
+[note: Social XP Delivery = Extreme Social Programming XSP rendering{bg:cornsilk}]
