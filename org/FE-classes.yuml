@@ -2,15 +2,15 @@
 // {direction:topDown}
 // {generate:true}
 
-[note: Backend XSP Miner Classes{bg:cornsilk}]
+[note: Frontend Bank Wallet Classes{bg:cornsilk}]
 [User]<>1-projects 0..*>[Job]
 [User]<>1-services 0..*>[Skill]
 [Job]++*-*>[Task]
-[Job]-1>[Social XP Delivery]
+[Job]-1>[Top Social Solution]
 [Job]*-*>[Product|UNSPSC_Code|price()|rc_price()]
 [Skill]-1>[Task]
 [Skill]*-*>[Product|UNSPSC_Code|price()|rc_price()]
 [Category Interest Tag]<->[Product]
-[Social XP Delivery]^[Internal]
-[Social XP Delivery]^[Public]
-[note: Social XP Delivery = Extreme Social Programming XSP rendering{bg:cornsilk}]
+[Top Social Solution]^[Social Network]
+[Top Social Solution]^[Public]
+[note: Top Social Solution = Fair Social Engineered Solution{bg:cornsilk}]
