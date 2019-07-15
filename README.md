@@ -1,4 +1,4 @@
-# A Decentralized Banking Protocol & Server for Live Social Programming
+# Decentralized Banking Protocol for Live Social Programming
 
 ## 101 - Recombinant Social Skills as Coins for Social Innovations
 
