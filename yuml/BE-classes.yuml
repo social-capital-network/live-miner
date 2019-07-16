@@ -2,6 +2,7 @@
 // {direction:topDown}
 // {generate:true}
 
+[note: W3AI \n The Social Capital Bank {bg:#6aa84f}]
 [note: Backend XSP Miner Classes{bg:cornsilk}]
 [User]<>1-projects 0..*>[Project]
 [User]<>1-services 0..*>[Service]
