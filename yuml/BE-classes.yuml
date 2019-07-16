@@ -2,8 +2,8 @@
 // {direction:topDown}
 // {generate:true}
 
-[note: W3AI \n The Social Capital Bank {bg:#6aa84f}]
-[note: Backend XSP Miner Classes{bg:cornsilk}]
+[note: W3AI \n Open Social Capital Bank {bg:#6aa84f}]
+[note: Backend XSP Innovation Miner Classes{bg:cornsilk}]
 [User]<>1-projects 0..*>[Project]
 [User]<>1-services 0..*>[Service]
 [Project]++*-*>[Task]
@@ -12,6 +12,8 @@
 [Service]-1>[Task]
 [Service]*-*>[Product|UNSPSC_Code|price()|rc_price()]
 [Category Interest Tag]<->[Product]
+[Category Interest Tag]<->[Miner\nProof of Work/Performance Project Tests]
+[Miner\nProof of Work/Performance Project Tests]<->[Ranked Innovations\n Global-National-Social\nRealtime Patenting Pools]
 [Social XP Delivery]^[Internal]
 [Social XP Delivery]^[Public]
-[note: Social XP Delivery = Extreme Social Programming XSP rendering{bg:cornsilk}]
+[note: Social XP Delivery = Extreme Social Programming/Engineering XSP\nInnovation Rendering{bg:cornsilk}]
