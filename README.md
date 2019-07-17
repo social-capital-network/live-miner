@@ -15,7 +15,19 @@ Thus:
 - git projects are sets of QA tests
 - natural economies are smart markets (https://en.wikipedia.org/wiki/Smart_market) where professionals and buisnesses collaborate in solving the top budgeted/voted projects they can find in their social networks.
 
-## 102 - Miner Server Installation
+## Agile Project mapping to Blockchain Classes
+
+### Task ~ Transaction : Dictionary {}
+
+### Open Tasks ~ Open Transactions : List []
+
+### Sprint ~ Block : Dictionary {}
+
+### Project ~ Blockchain : List []
+
+### Contributors ~ Nodes : Set {}
+
+## 103 - Miner Server Installation
 
 - Clone ai-eco-miner repo and install Anaconda Navigator
 - Create Conda ucoin environment:
