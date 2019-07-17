@@ -1,4 +1,4 @@
-# Decentralized Banking Protocol for Extreme Social Programming (XSP)
+# Innovation Mining Protocol for Social Capital Networks
 
 ![](/yuml/BE-classes.svg)
 
