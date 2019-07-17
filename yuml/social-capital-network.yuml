@@ -2,7 +2,7 @@
 // {direction:topDown}
 // {generate:true}
 
-[note: W3AI \n Open Social Capital Bank {bg:#6aa84f}]
+[note: High Level\nSocial Capital Network Classes {bg:#6aa84f}]
 [note: Backend XSP Innovation Miner Classes{bg:cornsilk}]
 [User]<>1-projects 0..*>[Project]
 [User]<>1-services 0..*>[Service]

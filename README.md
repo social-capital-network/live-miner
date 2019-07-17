@@ -1,6 +1,8 @@
 # Innovation Mining Protocol for Social Capital Networks
 
-![](/yuml/BE-classes.svg)
+## High level social capital network diagram
+
+![](/yuml/social-capital-network.svg)
 
 ## 101 - Recombinant Social Skills as Coins for Social Innovations
 
