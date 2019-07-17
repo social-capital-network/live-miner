@@ -4,7 +4,7 @@
 
 ![](/yuml/social-capital-network.svg)
 
-## 101 - Recombinant Social Skills as Coins for Social Innovations
+## Recombinant Social Skills as Coins for Social Innovations
 
 In order to speedup and distribute value mining to large population of local teams we propose replacement of the mining functions with solving QA test in git project repos.
 Thus:
@@ -14,6 +14,10 @@ Thus:
 - blocks are git contributions of multiple transactions like git commits which will pass a project defined test condition
 - git projects are sets of QA tests
 - natural economies are smart markets (https://en.wikipedia.org/wiki/Smart_market) where professionals and buisnesses collaborate in solving the top budgeted/voted projects they can find in their social networks.
+
+## Agile Innovation Miner Classes
+
+![](/yuml/Innovation-Miner-Classes.svg)
 
 ## Agile Project mapping to Blockchain Classes
 
@@ -27,7 +31,7 @@ Thus:
 
 ### Contributors ~ Nodes : Set {}
 
-## 103 - Miner Server Installation
+## Miner Server Installation
 
 - Clone ai-eco-miner repo and install Anaconda Navigator
 - Create Conda ucoin environment:
