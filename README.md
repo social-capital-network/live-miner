@@ -23,6 +23,9 @@ Thus:
 
 ### Task ~ Transaction : Dictionary {}
 
+Blockchain Transaction: {sender, recipient, amount}
+AI Miner Transaction/Task: {service, project, amount, duration, terms, contract}
+
 ### Open Tasks ~ Open Transactions : List []
 
 ### Sprint ~ Block : Dictionary {}
