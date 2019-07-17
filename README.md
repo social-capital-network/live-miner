@@ -1,4 +1,6 @@
-# Decentralized Banking Protocol for Live Social Programming
+# Decentralized Banking Protocol for Extreme Social Programming (XSP)
+
+![](/yuml/BE-classes.svg)
 
 ## 101 - Recombinant Social Skills as Coins for Social Innovations
 
