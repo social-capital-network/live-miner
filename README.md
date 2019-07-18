@@ -21,18 +21,18 @@ Thus:
 
 ## Agile Project mapping to Blockchain Classes
 
-### Task ~ Transaction : Dictionary {}
+### Task_Transaction : Tuple
 
-- Blockchain: transaction: {sender, recipient, amount}
-- AI Miner: task_ransaction: {service, project, amount, duration, terms, contract}
+- Blockchain: transaction: (sender, recipient, amount) tuple
+- AI Miner: task_transaction: (service, project, amount, duration, terms, contract) tuple
 
-### Open Tasks ~ Open Transactions : List []
+### Open_Tasks_Transactions : List []
 
-### Sprint ~ Block : Dictionary {}
+### Sprint_Block : Dictionary {}
 
-### Project ~ Blockchain : List []
+### Project_Blockchain : List []
 
-### Contributors ~ Nodes : Set {}
+### Innovator_Node : Set {}
 
 ## Miner Server Installation
 

@@ -98,8 +98,8 @@
 <!-- A6 -->
 <g id="node7" class="node">
 <title>A6</title>
-<polygon fill="none" stroke="#000000" points="343.9115,-216 235.9935,-216 235.9935,-180 343.9115,-180 343.9115,-216"/>
-<text text-anchor="middle" x="289.9525" y="-195" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Task_Transaction</text>
+<polygon fill="none" stroke="#000000" points="363.9263,-216 215.9787,-216 215.9787,-180 363.9263,-180 363.9263,-216"/>
+<text text-anchor="middle" x="289.9525" y="-195" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">Open_Tasks_Transactions</text>
 </g>
 <!-- A5&#45;&gt;A6 -->
 <g id="edge4" class="edge">
