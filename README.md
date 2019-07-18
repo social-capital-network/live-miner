@@ -23,8 +23,8 @@ Thus:
 
 ### Task ~ Transaction : Dictionary {}
 
-- Blockchain Transaction: {sender, recipient, amount}
-- AI Miner Transaction/Task: {service, project, amount, duration, terms, contract}
+- Blockchain: transaction: {sender, recipient, amount}
+- AI Miner: task_ransaction: {service, project, amount, duration, terms, contract}
 
 ### Open Tasks ~ Open Transactions : List []
 
