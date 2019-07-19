@@ -15,7 +15,7 @@ Thus:
 - git projects are sets of QA tests
 - natural economies are smart markets (https://en.wikipedia.org/wiki/Smart_market) where professionals and buisnesses collaborate in solving the top budgeted/voted projects they can find in their social networks.
 
-## The Agile Innovation Mining Process
+## Continuous Ecosystem Growth - Agile Innovation Lifecycle Process
 
 ![](/yuml/Innovation-Miner-Classes.svg)
 
