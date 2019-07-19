@@ -4,7 +4,7 @@
 
 ![](/yuml/social-capital-network.svg)
 
-## Recombinant Social Skills as Coins for Social Innovations
+## Recombinant Skills and Services as Coins of Social Innovation
 
 In order to speedup and distribute value mining to large population of local teams we propose replacement of the mining functions with solving QA test in git project repos.
 Thus:
