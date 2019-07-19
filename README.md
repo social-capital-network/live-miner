@@ -15,7 +15,9 @@ Thus:
 - git projects are sets of QA tests
 - natural economies are smart markets (https://en.wikipedia.org/wiki/Smart_market) where professionals and buisnesses collaborate in solving the top budgeted/voted projects they can find in their social networks.
 
-## Continuous Ecosystem Growth - Agile Innovation Lifecycle Process
+## Continuous Ecosystem Growth - Agile Innovation Lifecycle
+
+### DNA/ATP OS = Extreme Social Programming MVP: Mine (or Marry) Viral Program
 
 ![](/yuml/Innovation-Miner-Classes.svg)
 
