@@ -15,9 +15,15 @@ Thus:
 - projects are github repos defined as a sets of QA tests
 - economies are smart markets (https://en.wikipedia.org/wiki/Smart_market) of project/jobs and service/skills where students, professionals and buisnesses collaborate in solving the top budgeted/voted projects they can find in their social networks.
 
-## Continuous Ecosystem Growth - Agile Innovation Lifecycle
+## Continuous Ecosystem Progress - Agile Innovation Lifecycle
 
-### DNA/RNA/ATP OS = Extreme Social Programming MVP: Mine (or Marry) Viral Program
+Such Ecosystems ( Markets, Nations ) progress by extending the number of services or skills immediatelly available to address the top projects (market or environment challenges or opportunities).
+All participants can calculate their own Progress (growth in number of skills) Investments (Innovation Projects that produce better/skills and services) or even a evolutionary speed as the number of new skills/services innovated in a period of time.
+The Progress of the web ecosystem can be compared to the Progress in the number of genes added to the natural genoms in the past Billion year - after Nature invented the Dynamic Monetary system - Mitochondria used now by nearly all live cells on Earth. (https://en.wikipedia.org/wiki/Mitochondrion Mitochondria are the producers of the ATP miners: ATP synthase https://en.wikipedia.org/wiki/ATP_synthase )
+
+### DNA/RNA/ATP OS = Extreme Social Programming MVP: Mine (or Marry) Viral Programs
+
+One can either "marry" the best skills/services (genes) he she can find in the social network or publically or privatelly could try to mine/coin a better/faster/cheaper skill or service.
 
 ![](/yuml/Innovation-Miner-Classes.svg)
 
