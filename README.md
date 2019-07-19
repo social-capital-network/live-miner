@@ -9,15 +9,15 @@
 In order to speedup and distribute value mining to large population of local teams we propose replacement of the mining functions with solving QA test in git project repos.
 Thus:
 
-- miners are web workers with a specific set of skills/services (like the natural recombinant genes: rDNA/rRNA)
-- coins are equivalent to the nature's universal energy currency ATP: https://en.wikipedia.org/wiki/ATP_synthase
+- Users and miners(innovators) are people with a specific set of skill coins
+- the skill coins are equivalent to genes with a cost value linked to nature's universal energy currency ATP: https://en.wikipedia.org/wiki/Adenosine_triphosphate
 - blocks are git contributions of multiple transactions like git commits which will pass a project defined test condition
-- git projects are sets of QA tests
-- natural economies are smart markets (https://en.wikipedia.org/wiki/Smart_market) where professionals and buisnesses collaborate in solving the top budgeted/voted projects they can find in their social networks.
+- projects are github repos defined as a sets of QA tests
+- economies are smart markets (https://en.wikipedia.org/wiki/Smart_market) of project/jobs and service/skills where students, professionals and buisnesses collaborate in solving the top budgeted/voted projects they can find in their social networks.
 
 ## Continuous Ecosystem Growth - Agile Innovation Lifecycle
 
-### DNA/ATP OS = Extreme Social Programming MVP: Mine (or Marry) Viral Program
+### DNA/RNA/ATP OS = Extreme Social Programming MVP: Mine (or Marry) Viral Program
 
 ![](/yuml/Innovation-Miner-Classes.svg)
 
