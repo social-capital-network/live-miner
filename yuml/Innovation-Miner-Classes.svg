@@ -44,7 +44,7 @@
 <g id="edge1" class="edge">
 <title>A2&#45;&gt;A3</title>
 <path fill="none" stroke="#000000" d="M271.6498,-607.8639C264.7348,-597.7844 256.9673,-586.4623 250.1491,-576.5238"/>
-<polygon fill="none" stroke="#000000" points="271.6515,-607.8664 278.3442,-610.5511 278.4401,-617.7616 271.7474,-615.0769 271.6515,-607.8664"/>
+<polygon fill="#000000" stroke="#000000" points="271.6515,-607.8664 278.3442,-610.5511 278.4401,-617.7616 271.7474,-615.0769 271.6515,-607.8664"/>
 <polygon fill="#000000" stroke="#000000" points="244.4468,-568.2121 253.8147,-573.9124 247.2754,-572.3351 250.104,-576.4581 250.104,-576.4581 250.104,-576.4581 247.2754,-572.3351 246.3933,-579.0039 244.4468,-568.2121 244.4468,-568.2121"/>
 <text text-anchor="middle" x="261.6709" y="-575.3773" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">projects 0..*</text>
 <text text-anchor="middle" x="261.2161" y="-604.5964" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">1</text>
@@ -60,7 +60,7 @@
 <g id="edge2" class="edge">
 <title>A2&#45;&gt;A5</title>
 <path fill="none" stroke="#000000" d="M310.2552,-607.8639C317.1702,-597.7844 324.9377,-586.4623 331.7559,-576.5238"/>
-<polygon fill="none" stroke="#000000" points="310.2535,-607.8664 310.1576,-615.0769 303.4649,-617.7616 303.5608,-610.5511 310.2535,-607.8664"/>
+<polygon fill="#000000" stroke="#000000" points="310.2535,-607.8664 310.1576,-615.0769 303.4649,-617.7616 303.5608,-610.5511 310.2535,-607.8664"/>
 <polygon fill="#000000" stroke="#000000" points="337.4582,-568.2121 335.5117,-579.0039 334.6296,-572.3351 331.801,-576.4581 331.801,-576.4581 331.801,-576.4581 334.6296,-572.3351 328.0903,-573.9124 337.4582,-568.2121 337.4582,-568.2121"/>
 <text text-anchor="middle" x="334.1738" y="-584.9406" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">services 0..*</text>
 <text text-anchor="middle" x="306.7493" y="-595.0331" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">1</text>
@@ -78,7 +78,7 @@
 <polygon fill="#000000" stroke="#000000" points="233.3584,-519.7746 237.0753,-525.954 232.8008,-531.7616 229.0839,-525.5822 233.3584,-519.7746"/>
 <polygon fill="#000000" stroke="#000000" points="235.1054,-482.2121 239.1359,-492.4104 234.8731,-487.2067 234.6407,-492.2013 234.6407,-492.2013 234.6407,-492.2013 234.8731,-487.2067 230.1456,-491.9922 235.1054,-482.2121 235.1054,-482.2121"/>
 <text text-anchor="middle" x="242.7065" y="-497.7114" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">*</text>
-<text text-anchor="middle" x="225.1997" y="-510.2623" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">*</text>
+<text text-anchor="middle" x="225.1997" y="-510.2623" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">1</text>
 </g>
 <!-- A4 -->
 <g id="node5" class="node">
@@ -102,7 +102,7 @@
 <polygon fill="#000000" stroke="#000000" points="348.8978,-519.7689 353.1046,-525.6258 349.3163,-531.7616 345.1095,-525.9047 348.8978,-519.7689"/>
 <polygon fill="#000000" stroke="#000000" points="347.5878,-482.2121 352.4338,-492.0491 347.7622,-487.2091 347.9365,-492.206 347.9365,-492.206 347.9365,-492.206 347.7622,-487.2091 343.4393,-492.3629 347.5878,-482.2121 347.5878,-482.2121"/>
 <text text-anchor="middle" x="356.667" y="-497.0326" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">*</text>
-<text text-anchor="middle" x="340.2371" y="-510.9411" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">*</text>
+<text text-anchor="middle" x="340.2371" y="-510.9411" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">1</text>
 </g>
 <!-- A7 -->
 <g id="node8" class="node">
@@ -118,7 +118,7 @@
 <polygon fill="#000000" stroke="#000000" points="253.7858,-435.5989 253.9827,-442.8074 247.4045,-445.7616 247.2076,-438.5532 253.7858,-435.5989"/>
 <polygon fill="#000000" stroke="#000000" points="278.517,-396.2121 277.0103,-407.074 275.8581,-400.4466 273.1993,-404.681 273.1993,-404.681 273.1993,-404.681 275.8581,-400.4466 269.3883,-402.288 278.517,-396.2121 278.517,-396.2121"/>
 <text text-anchor="middle" x="276.0363" y="-413.0577" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">*</text>
-<text text-anchor="middle" x="249.8852" y="-422.9161" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">*</text>
+<text text-anchor="middle" x="249.8852" y="-422.9161" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">1</text>
 </g>
 <!-- A9 -->
 <g id="node10" class="node">
@@ -144,7 +144,7 @@
 <polygon fill="#000000" stroke="#000000" points="328.2347,-435.7591 334.8836,-438.5505 334.8643,-445.7616 328.2153,-442.9702 328.2347,-435.7591"/>
 <polygon fill="#000000" stroke="#000000" points="302.0233,-396.2121 311.2989,-402.0614 304.7856,-400.3798 307.548,-404.5475 307.548,-404.5475 307.548,-404.5475 304.7856,-400.3798 303.797,-407.0336 302.0233,-396.2121 302.0233,-396.2121"/>
 <text text-anchor="middle" x="319.0827" y="-403.6513" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">*</text>
-<text text-anchor="middle" x="317.8049" y="-432.3224" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">*</text>
+<text text-anchor="middle" x="317.8049" y="-432.3224" font-family="Helvetica,sans-Serif" font-size="10.00" fill="#000000">1</text>
 </g>
 <!-- A11 -->
 <g id="node12" class="node">
