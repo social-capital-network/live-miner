@@ -68,7 +68,7 @@ $ python node.py -p 5001
 ## Credits:
 
 This project extends the excellent educational Python Blockchain developed by Maximilian Schwarzmuller in his popular Udemy Course:
-![Learn Python by Building a Blockchain & Cryptocurrency](https://www.udemy.com/learn-python-by-building-a-blockchain-cryptocurrency/)
+[Learn Python by Building a Blockchain & Cryptocurrency](https://www.udemy.com/learn-python-by-building-a-blockchain-cryptocurrency/)
 
 ## Contributors:
 
