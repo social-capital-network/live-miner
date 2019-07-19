@@ -25,8 +25,8 @@ Thus:
 
 ### Task_Transaction : Tuple
 
-- Blockchain: transaction: (sender, recipient, amount) tuple
-- AI Miner: task_transaction: (service, project, amount, duration, terms, contract) tuple
+- Blockchain: transaction: (sender, recipient, amount, signature) tuple
+- Innovation Miner: task_transaction: (service, project, amount, duration, result, start, finish, contract) tuple
 
 ### Open_Tasks_Transactions : List []
 

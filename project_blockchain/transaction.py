@@ -23,6 +23,9 @@ class Transaction(Printable):
         self.signature = signature
         self.duration = duration
         self.result = result
+        self.start = start
+        self.finish = finish
+        self.contract = contract
 
     def to_ordered_dict(self):
         """Converts this transaction into a (hashable) OrderedDict."""
@@ -30,4 +33,7 @@ class Transaction(Printable):
                             ('recipient', self.recipient),
                             ('amount', self.amount),
                             ('duration', self.duration),
-                            ('result', self.result)])
+                            ('result', self.result),
+                            ('start', self.start),
+                            ('finish', self.finish),
+                            ('contract', self.contract)])
