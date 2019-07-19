@@ -63,10 +63,16 @@ or start multiple miner servers on different ports:
 $ python node.py -p 5001
 ```
 
-- Open ai economy UI at localhost:5000
+- Open UI at localhost:5000
 
-ToDo:
+## Credits:
 
-- Add project / list of tasks to implement all the components of a functional business/economy organism
+This project extends the excellent educational Python Blockchain developed by Maximilian Schwarzmuller in his popular Udemy Course:
+![Learn Python by Building a Blockchain & Cryptocurrency](https://www.udemy.com/learn-python-by-building-a-blockchain-cryptocurrency/)
+
+## Contributors:
+
+- Stefan Ianta - initiator
+- Alex Ianta - code reviews
 
 © Ianta Labs / MIT license

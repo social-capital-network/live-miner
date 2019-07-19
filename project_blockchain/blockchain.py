@@ -19,19 +19,21 @@ print(__name__)
 
 
 class Blockchain:
-    """The Blockchain class manages the chain of blocks as well as open
-    transactions and the node on which it's running.
+    """The Blockchain class in the project_blockchain folder manages the
+    chain of blocks ( = project SPRINTS in Agile / WEEKS in WF) as well as 
+    open transactions ( = project TASK) and the 
+    node on which it's running.
 
     Attributes:
-        :chain: The list of blocks
-        :open_transactions (private): The list of open transactions
+        :chain: The list of blocks (sprints)
+        :open_transactions (private): The list of open transactions / tasks
         :hosting_node: The connected node (which runs the blockchain).
     """
 
     def __init__(self, public_key, node_id):
-        """The constructor of the Blockchain class."""
+        """The constructor of the Blockchain (Project) class."""
         # Our starting block for the blockchain
-        genesis_block = Block(0, '', [], 100, 0)
+        genesis_block = Block(0, '', [], [], 0)
         # Initializing our (empty) blockchain list
         self.chain = [genesis_block]
         # Unhandled transactions
