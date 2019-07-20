@@ -23,7 +23,7 @@ The Progress of the web ecosystem can be compared to the Progress in the number 
 
 ### DNA/RNA/ATP OS = Extreme Social Programming MVP: Mine (or Marry) Viral Programs
 
-One can either "marry" the best skills/services (genes) he she can find in the social network or publically or privatelly could try to mine/coin a better/faster/cheaper skill or service.
+One can either "marry" the best skills/services (genes) she/he can find in the social network or openly or privatelly could try to mine/coin a better/faster/cheaper skill or service by initiating and promoting/funding a new project in her social network.
 
 ![](/yuml/Innovation-Miner-Classes.svg)
 
